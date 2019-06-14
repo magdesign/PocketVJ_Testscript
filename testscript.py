@@ -84,23 +84,25 @@ while(True):
     if (GPIO.input(13)):
         print ("Button 3 pushed")
 
-    if (GPIO.input(7)==GPIO.HIGH):
+        
+        
+    if (GPIO.input(7)==True):
         print ("Yes, Sensing on pin7")
-    if (GPIO.input(26)==GPIO.HIGH):
+    if (GPIO.input(26)==True):
         print ("Yes, Sensing on pin26")
-    if (GPIO.input(32)==GPIO.HIGH):
+    if (GPIO.input(32)==True):
         print ("Yes, Sensing on pin32")
-    if (GPIO.input(33)==GPIO.HIGH):
+    if (GPIO.input(33)==True):
         print ("Yes, Sensing on pin33")
-    if (GPIO.input(8)==GPIO.HIGH):
+    if (GPIO.input(8)==True):
         print ("Yes, Sensing on pin8")
-    if (GPIO.input(10)==GPIO.HIGH):
+    if (GPIO.input(10)==True):
         print ("Yes, Sensing on pin10")       
-    if (GPIO.input(35)==GPIO.HIGH):
+    if (GPIO.input(35)==True):
         print ("Yes, Sensing on pin35")
-    if (GPIO.input(38)==GPIO.HIGH):
+    if (GPIO.input(38)==True):
         print ("Yes, Sensing on pin38")
-    if (GPIO.input(40)==GPIO.HIGH):
+    if (GPIO.input(40)==True):
         print ("Yes, Sensing on pin40")
 
 
